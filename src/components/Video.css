@@ -1,0 +1,15 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoTitle {
+  text-align: center;
+  font-size: 35px;
+}
+
+.videoiFrame {
+  width: 600px;
+  height: 400px;
+}

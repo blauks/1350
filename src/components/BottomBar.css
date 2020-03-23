@@ -1,0 +1,27 @@
+.bottombar {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+}
+
+.lines {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.lineleft {
+  background-color: black;
+  width: 47%;
+  height: 2px;
+  background: linear-gradient(to left, black, white);
+}
+
+.lineright {
+  background-color: black;
+  width: 47%;
+  height: 2px;
+  background: linear-gradient(to right, black, white);
+}
