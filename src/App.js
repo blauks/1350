@@ -11,7 +11,9 @@ function App() {
       <TopBar />
       <div className="videos">
         {videos.map(function (d, i) {
-          return <Video key={i} title={i} id={d.id} tittel={d.title} />;
+          return (
+            <Video key={i} title={i} id={d.id} info={d.info} tittel={d.title} />
+          );
         })}
       </div>
       <BottomBar />

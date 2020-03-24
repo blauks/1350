@@ -7,6 +7,9 @@
 .videoTitle {
   text-align: center;
   font-size: 35px;
+  padding: 0;
+  margin: 0;
+  padding-top: 45px;
 }
 
 .videoiFrame {
@@ -14,9 +17,15 @@
   height: 400px;
 }
 
+.info {
+  text-align: center;
+  width: 450px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
 @media all and (min-width: 700px) {
   .videoTitle {
-    text-align: center;
     font-size: 35px;
   }
 
@@ -24,16 +33,24 @@
     width: 600px;
     height: 400px;
   }
+
+  .info {
+    font-size: 18px;
+  }
 }
 
 @media all and (max-width: 699px) {
   .videoTitle {
-    text-align: center;
     font-size: 5vw;
   }
 
   .videoiFrame {
     width: 75vw;
     height: 50vw;
+  }
+
+  .info {
+    font-size: 4vw;
+    width: 70vw;
   }
 }
