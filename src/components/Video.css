@@ -13,3 +13,27 @@
   width: 600px;
   height: 400px;
 }
+
+@media all and (min-width: 700px) {
+  .videoTitle {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .videoiFrame {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 699px) {
+  .videoTitle {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  .videoiFrame {
+    width: 75vw;
+    height: 50vw;
+  }
+}

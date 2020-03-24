@@ -2,5 +2,16 @@
   display: grid;
   justify-items: center;
   justify-content: space-around;
-  grid-template-columns: auto auto;
+}
+
+@media all and (min-width: 1400px) {
+  .videos {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media all and (max-width: 1399px) {
+  .videos {
+    grid-template-columns: auto;
+  }
 }

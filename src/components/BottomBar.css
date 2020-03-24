@@ -25,3 +25,38 @@
   height: 2px;
   background: linear-gradient(to right, black, white);
 }
+
+.bottomBarContent {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.bottomBarNettsider {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.sosialeMedierLogo {
+  height: 35px;
+}
+
+@media all and (min-width: 560px) {
+  .bottomBarContent {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media all and (max-width: 559px) {
+  .bottomBarContent {
+    grid-template-columns: auto;
+  }
+}
